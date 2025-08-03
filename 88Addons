@@ -28,7 +28,7 @@
 </head>
 <body>
   <video autoplay muted loop playsinline>
-    <source src="video.mp4" type="video/mp4">
+    <source src="https://github-production-user-asset-6210df.s3.amazonaws.com/217745793/473741261-09b41f19-5970-4cea-b776-dd59f9d1b3a2.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20250803%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20250803T035725Z&X-Amz-Expires=300&X-Amz-Signature=6f0aafc08ac9b91e5a512f73d359c09898afb5e70e1121f0d2448c06a2ae4b22&X-Amz-SignedHeaders=host" type="video/mp4">
   </video>
 </body>
 </html>
