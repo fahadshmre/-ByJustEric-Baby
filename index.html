@@ -1,27 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>ByJustEric-Baby</title>
+  <meta charset="UTF-8">
+  <title>Full Video</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: black;
+      overflow: hidden;
     }
     video {
-      max-width: 100%;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
       height: auto;
+      z-index: -1;
+      transform: translate(-50%, -50%);
+      background-size: cover;
     }
   </style>
 </head>
 <body>
-  <h1>-ByJustEric-Baby</h1>
-  <p>https://www.kapwing.com/videos/688ed79208bdbd4e297b3202:</p>
-
-  <video controls>
-    <source src="myvideo.mp4" type="video/mp4">
-    متصفحك لا يدعم تشغيل الفيديو.
+  <video autoplay muted loop playsinline>
+    <source src="video.mp4" type="video/mp4">
   </video>
-
 </body>
 </html>
